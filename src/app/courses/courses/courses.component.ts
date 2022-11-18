@@ -8,6 +8,8 @@ import { Course } from '../model/course';
 })
 
 export class CoursesComponent {
- courses: Course[] = [];
+ courses: Course[] = [
+  {_id:'1', name:'Carlos', category: 'angular'}
+ ];
  displayedColumns = ['name', 'category'];
 }
