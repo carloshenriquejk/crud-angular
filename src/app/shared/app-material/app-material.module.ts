@@ -3,6 +3,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -10,7 +13,10 @@ import {MatChipsModule} from '@angular/material/chips';
     MatTableModule,
     MatCardModule,
     MatToolbarModule,
-    MatChipsModule
+    MatChipsModule,
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    MatButtonModule
   ]
 })
 export class AppMaterialModule { }
